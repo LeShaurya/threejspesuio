@@ -1,0 +1,21 @@
+<model-viewer bounds="tight" enable-pan src="T-65 X-Wing Starfighter.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls environment-image="spruit_sunrise_1k_HDR.hdr" poster="poster.webp" shadow-intensity="2" shadow-softness="0" skybox-image="spruit_sunrise_1k_HDR.hdr" exposure="1.5" auto-rotate>
+    <button class="Hotspot" slot="hotspot-1" data-position="-0.5556477705076838m 0.035031903306964374m 0.8068457006071295m" data-normal="-0.7457531183684178m 0.6549208955148877m -0.1221920908314365m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">left wing
+        </div>
+    </button><button class="Hotspot" slot="hotspot-3" data-position="-0.5586906409386403m 0.0265565537598349m -0.7857801720707565m" data-normal="0.755507437081156m -0.6549176220844973m -0.017071051468808163m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">right wing
+        </div>
+    </button><button class="Hotspot" slot="hotspot-4" data-position="0.4851155197085255m -0.026090836708852486m -0.012533738995862742m" data-normal="0.320823289616177m -5.627006291507954e-7m -0.9471390694293728m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">back
+        </div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
